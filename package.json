@@ -2,7 +2,7 @@
   "name": "expkg",
   "version": "0.0.1",
   "description": "Example for simple DPKG package",
-  "install": "install -b expkg ${PREFIX:-$HOME/.local/}/bin/passmenu",
+  "install": "install -b expkg ${PREFIX:-$HOME/.local/}/bin/expkg",
   "scripts": [ "expkg" ]
 }
 
